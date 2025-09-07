@@ -1,0 +1,10 @@
+[Question]
+Four people—A, B, C, and D—live on different floors of this 9-story apartment building. Guess which floor each lives on based on their comments below.
+
+A: “I live three floors below D.”
+B: “I live on either the 7th or 8th floor.”
+C: “I live on an odd-numbered floor.”
+D: “The floors where the four of us live are evenly spaced apart.”
+
+[Source]
+Layton's Mystery Journey: Katrielle and the Millionaires' Conspiracy, puzzle 27
