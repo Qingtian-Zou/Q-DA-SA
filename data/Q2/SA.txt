@@ -1,0 +1,4 @@
+[Answer]
+The interesting part is that what A, B, and D say kind of overlap. Let's assume the culprit is either B or C. In this case, D is telling the truth, and either A or B is also telling the truth. However, there is only one person telling the truth. Our earlier assumption does not stand. Therefore, neither B or C is the culprit, which means that A, B, and D are all lying, so C is telling the truth.
+
+Now, C says that the culprit is either A or B, but we have already ruled out B, so the culprit is A.
