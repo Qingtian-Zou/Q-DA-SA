@@ -1,0 +1,28 @@
+name: Update README file counts
+
+on:
+  push:
+    paths:
+      - 'data/**'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run update_readme_counts.py
+        run: python update_readme_counts.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update README file counts"
+          file_pattern: README.md
