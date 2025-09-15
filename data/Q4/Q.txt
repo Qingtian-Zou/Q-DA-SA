@@ -1,0 +1,12 @@
+[Question]
+Four kids were playing, and one of them threw a ball right through your window. Here's what they had to say for themselves.
+
+A: "Not me! I didn't break a thing!"
+B: "OK, I'll tell the truth. It was me. I broke it."
+C: "Don't be mad at A! He didn't do anything!"
+D: "B didn't break the glass, I swear."
+
+You know for a fact that the scamp who broke your window is lying. However, an unknown number of the other children may be lying as well. Can you figure out which one of these darned kids broke your window?
+
+[Source]
+Professor Layton and the Curious Village, puzzle 74
