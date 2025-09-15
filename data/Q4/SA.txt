@@ -1,6 +1,6 @@
 [Answer]
 This question seems tricky: we are in a rather ambiguous situation where everyone could be lying.
-Let's start with the certain condition we have: the culprit must be lying.
+Let's start with the concrete condition we have: the culprit must be lying.
 With this in mind, B's statement becomes interesting: it is a confession!
 However, if B is truly the culprit, then B should be lying, which means B should not be the culprit as B's confession should not be trusted.
 It is self-contradicting!
@@ -12,3 +12,11 @@ If C is the culprit, then C should be lying, which means that A surely did somet
 However, we should have only one culprit.
 Therefore, C is not the culprit.
 The only person left, A, is the culprit.
+
+Finally, let's check the answer we get.
+If A is the culprit, A should be lying.
+A claims that "I am not the culprit", so it is surely a lie.
+The condition is met.
+As for other's statements, becuase they can freely tell the truth or lie, there is no point in examining their statements.
+
+In conclusion, A is the culprit.
