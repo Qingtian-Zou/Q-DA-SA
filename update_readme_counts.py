@@ -38,7 +38,14 @@ def update_readme(readme_path, counts):
     counts_md = [start_marker]
     counts_md.append('## File Counts in data/\n')
     for prefix in PREFIXES:
-        counts_md.append(f'- {prefix}*.txt: {counts[prefix]}\n')
+        if prefix == 'Q':
+            counts_md.append(f'- {prefix}*.txt (Questions): {counts[prefix]}\n')
+        elif prefix == 'DA':
+            counts_md.append(f'- {prefix}*.txt (Dumb Answers): {counts[prefix]}\n')
+        elif prefix == 'SA':
+            counts_md.append(f'- {prefix}*.txt (Smart Answers): {counts[prefix]}\n')
+        elif prefix == 'WA':
+            counts_md.append(f'- {prefix}*.txt (Wrong Answers): {counts[prefix]}\n')
     counts_md.append(end_marker)
 
     if start_idx is not None and end_idx is not None:
