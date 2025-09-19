@@ -5,8 +5,8 @@ Many questions have more than one way to answer, but some current LLMs seem to s
 
 <!-- FILE_COUNTS_START -->
 ## File Counts in data/
-- Q*.txt (Questions): 4
-- DA*.txt (Dumb Answers): 16
-- SA*.txt (Smart Answers): 4
+- Q*.txt (Questions): 5
+- DA*.txt (Dumb Answers): 21
+- SA*.txt (Smart Answers): 5
 - WA*.txt (Wrong Answers): 3
 <!-- FILE_COUNTS_END -->
