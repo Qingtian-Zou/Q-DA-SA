@@ -1,0 +1,10 @@
+[Answer]
+The four tips seem to be describing boxes surrounding the target box: right, left, above, and below it.
+The only specified color is the box below: it should be the same as the target box.
+Though other 3 tips give no hints on the colors, they surely indicate that a box exists on that direction.
+This means that the target box have a box to its right, left, above, and below.
+Therefore, the target box cannot be on the edges.
+It must be one of the 4 boxes in the middle.
+
+Now, let's see which box of the 4 has a same colored box below it.
+The only one satisfying this condition is the red box on the 3rd row, 3rd column.
