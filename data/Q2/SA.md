@@ -3,6 +3,7 @@
 Human
 
 # Answer
+
 The interesting part is that what A, B, and D say kind of overlap.
 Let's assume the culprit is either B or C.
 In this case, D is telling the truth, and either A or B is also telling the truth.
