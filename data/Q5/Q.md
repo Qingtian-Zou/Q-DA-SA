@@ -2,15 +2,16 @@
 
 You have been told to get one of 16 boxes from a stack. The note that describes which box to grab is smudged, so this is all you can make of the details:
 
--The color of the box on its right is ???
--The color of the box on its left is ???
--The color of the box above it is ???
--It's the same color as the box below it.
+- The color of the box on its right is ???
+- The color of the box on its left is ???
+- The color of the box above it is ???
+- It's the same color as the box below it.
 
 Here is the layout of the 16 boxes:
-white, red, white, white
-white, red, white, red
-red, white, red, red
+
+white, red, white, white\
+white, red, white, red\
+red, white, red, red\
 white, red, red, white
 
 Which one box meets this description?
