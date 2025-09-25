@@ -1,0 +1,16 @@
+# Question
+
+A shop owner points to each of her exotic cats, which all have different colors, and says something strange:
+
+- "Red is next to Blue."
+- "Black is not white."
+- "Green is not green."
+- "Blue is three over from Black."
+- "Red is on the end."
+
+The cats he is pointing to, from left to right, are colored red, blue, green, black, and white, respectively.
+
+So, then, which cat is White?
+
+# Source
+[Professor Layton and the Unwound Future, puzzle 69](https://layton.fandom.com/wiki/Puzzle:Which_One%27s_White%3F)

@@ -1,4 +1,9 @@
-[Answer]
+# Player
+
+Human
+
+# Answer
+
 The shop owner does say strange things: Green is not green.
 Also, note that the initials of "Blue" and "Black" are capitalized in sentences 1 and 4, even though they appear in the middle of sentences.
 In the last line of the question, the initial of "White" is also capitalized.
@@ -12,11 +17,11 @@ If the cats' names match their colors, there is no point in asking such an obvio
 For short, let's use R for the cat named Red.
 Similarly, Bk, G, Be and W stand for cats named Black, Green, Blue, and White, respectively.
 Now, keeping the capitalized initials in mind, the five statements can be rephrased as follows:
-"R is next to Be."
-"Bk is not white."
-"G is not green."
-"Be is three over from Bk."
-"R is on the end."
+- "R is next to Be."
+- "Bk is not white."
+- "G is not green."
+- "Be is three over from Bk."
+- "R is on the end."
 We also have the cats' arrangements of their colors: red, blue, green, black, and white.
 Now let's consider how to map the names to their colors and positions.
 
@@ -33,4 +38,4 @@ Therefore, R is white, Be is black, and Bk is red.
 Finally, the only two cats left are W and G, and the colors left are blue and green.
 According to statement 3, G cannot be green, so G is blue, and W is green.
 
-Therefore, the cat named White is the green-colored cat.
+Therefore, the cat named White is the green-colored cat in the middle.
