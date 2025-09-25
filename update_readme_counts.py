@@ -9,10 +9,10 @@ PREFIXES = ['Q', 'DA', 'SA', 'WA']
 
 def count_files_by_prefix(data_dir, prefixes):
     counts = {prefix: 0 for prefix in prefixes}
-    pattern = re.compile(r'^(Q|DA|SA|WA).*\\.txt$', re.IGNORECASE)
+    pattern = re.compile(r'^(Q|DA|SA|WA).*\\.md$', re.IGNORECASE)
     for root, _, files in os.walk(data_dir):
         for file in files:
-            if file.lower().endswith('.txt'):
+            if file.lower().endswith('.md'):
                 for prefix in prefixes:
                     if file.upper().startswith(prefix):
                         counts[prefix] += 1
@@ -39,13 +39,13 @@ def update_readme(readme_path, counts):
     counts_md.append('## File Counts in data/\n')
     for prefix in PREFIXES:
         if prefix == 'Q':
-            counts_md.append(f'- {prefix}*.txt (Questions): {counts[prefix]}\n')
+            counts_md.append(f'- {prefix}*.md (Questions): {counts[prefix]}\n')
         elif prefix == 'DA':
-            counts_md.append(f'- {prefix}*.txt (Dumb Answers): {counts[prefix]}\n')
+            counts_md.append(f'- {prefix}*.md (Dumb Answers): {counts[prefix]}\n')
         elif prefix == 'SA':
-            counts_md.append(f'- {prefix}*.txt (Smart Answers): {counts[prefix]}\n')
+            counts_md.append(f'- {prefix}*.md (Smart Answers): {counts[prefix]}\n')
         elif prefix == 'WA':
-            counts_md.append(f'- {prefix}*.txt (Wrong Answers): {counts[prefix]}\n')
+            counts_md.append(f'- {prefix}*.md (Wrong Answers): {counts[prefix]}\n')
     counts_md.append(end_marker)
 
     if start_idx is not None and end_idx is not None:
