@@ -1,4 +1,9 @@
-[Answer]
+# Player
+
+Human
+
+# Answer
+
 The four tips seem to be describing boxes surrounding the target box: right, left, above, and below it.
 The only specified color is the box below: it should be the same as the target box.
 Though other 3 tips give no hints on the colors, they surely indicate that a box exists on that direction.
