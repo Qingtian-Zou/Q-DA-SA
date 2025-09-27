@@ -16,7 +16,7 @@ Are there 4 continuous numbers from 1 to 12 that add up to 26?
 Yes, 5+6+7+8=26!
 These 4 numbers should be on either piece B or C.
 However, there is not another set of such 4 numbers.
-Wait, we are talking about a clock, so 12 and 1 can also be considered as "continuous" because they are adjacent on the clock!
+Wait, we are talking about a clock, so 12 and 1 can also be considered as "continuous" as they are adjacent on the clock!
 11+12+1+2=26!
 Other numbers left: 3+4+9+10=26!
 Also, 3 and 4 are continuous, and 9 and 10 are continuous, so they are on piece A.
