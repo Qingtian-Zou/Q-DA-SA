@@ -5,8 +5,8 @@ Many questions have more than one way to answer, but some models seem to solve t
 
 <!-- FILE_COUNTS_START -->
 ## File Counts in data/
-- Q*.md (Questions): 8
-- DA*.md (Dumb Answers): 15
-- SA*.md (Smart Answers): 8
-- WA*.md (Wrong Answers): 6
+- Q*.md (Questions): 9
+- DA*.md (Dumb Answers): 17
+- SA*.md (Smart Answers): 9
+- WA*.md (Wrong Answers): 8
 <!-- FILE_COUNTS_END -->
