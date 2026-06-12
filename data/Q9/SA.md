@@ -14,9 +14,9 @@ Next, let's check the remaining statements:
 
 - Statement 2: 5 is between two larger numbers, so candidates are 6, 7, 8, and 9.
 - Statement 3: 3 is between two smaller numbers, so candidates are 1 and 2.
-- Statement 4: 7 is between two larger numbers, so candidates are 7 and 8.
+- Statement 4: 7 is between two larger numbers, so candidates are 8 and 9.
 
-Statement 3 and 4 can lead to two subsequences immediately, as their candidates are quite limited: [1, 3, 2] and [7, 8, 9], or their reverse orders.
+Statement 3 and 4 can lead to two subsequences immediately, as their candidates are quite limited: [1, 3, 2] and [8, 7, 9], or their reverse orders.
 However, 9 is fixed at the left end, and 1 is fixed at the right end, so their reverse orders ([9, 7, 8] and [2, 3, 1]) are correct.
 Let's put them in place:
 
