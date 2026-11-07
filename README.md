@@ -8,5 +8,6 @@ Many questions have more than one way to answer, but some models seem to solve t
 - Q*.md (Questions): 13
 - DA*.md (Dumb Answers): 23
 - SA*.md (Smart Answers): 13
-- WA*.md (Wrong Answers): 20
+- WA*.md (Wrong Answers): 19
+- AA*.md (Astray Answers): 1
 <!-- FILE_COUNTS_END -->
