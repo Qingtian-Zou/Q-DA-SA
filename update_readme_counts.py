@@ -4,12 +4,12 @@ import re
 README_PATH = 'README.md'
 DATA_DIR = 'data'
 
-PREFIXES = ['Q', 'DA', 'SA', 'WA']
+PREFIXES = ['Q', 'DA', 'SA', 'WA', 'AA']
 
 
 def count_files_by_prefix(data_dir, prefixes):
     counts = {prefix: 0 for prefix in prefixes}
-    pattern = re.compile(r'^(Q|DA|SA|WA).*\\.md$', re.IGNORECASE)
+    pattern = re.compile(r'^(Q|DA|SA|WA|AA).*\\.md$', re.IGNORECASE)
     for root, _, files in os.walk(data_dir):
         for file in files:
             if file.lower().endswith('.md'):
@@ -46,6 +46,8 @@ def update_readme(readme_path, counts):
             counts_md.append(f'- {prefix}*.md (Smart Answers): {counts[prefix]}\n')
         elif prefix == 'WA':
             counts_md.append(f'- {prefix}*.md (Wrong Answers): {counts[prefix]}\n')
+        elif prefix == 'AA':
+            counts_md.append(f'- {prefix}*.md (Astray Answers): {counts[prefix]}\n')
     counts_md.append(end_marker)
 
     if start_idx is not None and end_idx is not None:
